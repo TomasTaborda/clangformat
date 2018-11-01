@@ -8,7 +8,7 @@ public:
 	{
 		if (b)
 		{
-		*x++;
+			*x++;
 		}
 		else
 		{
