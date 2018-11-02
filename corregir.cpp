@@ -4,8 +4,7 @@ class Pepe
 {
   public:
     int* x;
-    void
-    function(bool b)
+    void function(bool b)
     {
         if(b)
         {
@@ -23,8 +22,8 @@ class Pepe
             std::cout << '\n';
         }
     }
-    bool
-    function_long(long long int para1, int para2, char parametro3, double& asd)
+    bool function_long(long long int para1, int para2, char parametro3,
+                       double& asd)
     {
         return (para1 + para2 + parametro3 + asd) != 0;
     }
